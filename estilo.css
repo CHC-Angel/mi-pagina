@@ -1,0 +1,66 @@
+*{/*Códigos universales de CSS*/
+    margin: 0;/*margen*/
+    padding: 0;/*relleno*/
+    box-sizing: border-box;/*tamaño de caja:cuadro de borde*/
+    font-family: arial, san-serif;/*familia tipografica*/
+}
+#contenedor{
+    width: 70%;/*ancho*/
+    margin: auto;/*margen*/
+    border: 1px solid black;/*borde*/
+}
+header{/*encabezamiento*/
+    background: grey;/*fondo*/
+    height: 100px;/*altura*/
+    width: 100%;/*ancho*/
+    margin: 0px;/*margen*/
+    text-align: center;/*texto aliniado*/
+    /*centra el texto verticalmente*/
+    line-height: 100px;/*altura de la línea*/
+    color: white;
+}
+nav{
+    max-width: 100%;
+    min-height: 50px;
+    background: black;
+    margin: 0 auto;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+}
+nav a{
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: black;
+    font-size: 18px;
+}
+nav a:hover{
+    background: #2c3e50;
+}
+.clearfix{/*arreglo claro*/
+    clear: both;/*claro*/
+}
+#seccion{/*sección*/
+    float: left;/*flotar:Izquierda*/
+    width: 80%;/*ancho*/
+    min-height: 500px;/*altura mínima*/
+    background: rgb(172, 106, 235);/*fondo*/
+}
+aside{/*aparte*/
+    float: left;/*flotar:Izquierda*/
+    width: 20%;/*ancho*/
+    background: lemonchiffon;/*fondo*/
+    min-height: 500px;/*altura mínima*/
+}
+footer{
+    background: black;/*fondo*/
+    color: white;
+    text-align: center;/*texto aliniado*/
+    height: 50px;/*altura*/
+    line-height: 50px;/*altura de la línea*/
+}
